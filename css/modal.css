@@ -121,9 +121,10 @@
 
    border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-
+ background-color: #fcfcfc;
   outline: none;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-input:focus,
 .form-textarea:focus {
@@ -158,8 +159,10 @@
    font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
+   background-color: #fcfcfc;
   letter-spacing: 0.04em;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-textarea::placeholder {
   color: rgba(46, 47, 66, 0.4);
@@ -243,8 +246,7 @@
   justify-content: center;
 
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-              border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox-container {
-  margin-bottom: 0;
+  margin-bottom: 24px;
 }
